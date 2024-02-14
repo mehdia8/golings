@@ -1,12 +1,12 @@
 // arrays2
 // Make me compile!
 
-// I AM NOT DONE
+// I AM DONE
 package main
 
 import "fmt"
 
 func main() {
-	names := [4]string{"John", "Maria", "Carl", 10}
+	names := [4]string{"John", "Maria", "Carl", "Stephen"}
 	fmt.Println(names)
 }
