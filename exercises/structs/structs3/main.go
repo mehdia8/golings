@@ -1,7 +1,7 @@
 // structs3
 // Make me compile!
 //
-// I AM NOT DONE
+// I AM DONE
 package main
 
 import "fmt"
@@ -9,6 +9,11 @@ import "fmt"
 type Person struct {
 	firstName string
 	lastName  string
+}
+
+func (person Person) FullName() string {
+	return person.firstName + " " + person.lastName
+
 }
 
 func main() {
