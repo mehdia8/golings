@@ -1,12 +1,12 @@
 // variables3
 // Make me compile!
 
-// I AM NOT DONE
+// I AM DONE
 package main
 
 import "fmt"
 
 func main() {
-	var x
+	var x int
 	fmt.Printf("x has the value %d", x)
 }

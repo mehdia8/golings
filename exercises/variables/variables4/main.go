@@ -1,7 +1,7 @@
 // variables4
 // Make me compile!
 
-// I AM NOT DONE
+// I AM DONE
 package main
 
 import "fmt"
@@ -11,7 +11,7 @@ func main() {
 	fmt.Printf("x has the value %s", x)
 
 	if true {
-		x = 1
+		x := 1
 		fmt.Println(x + 1)
 	}
 
